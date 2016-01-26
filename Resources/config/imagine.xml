@@ -107,12 +107,12 @@
             <argument type="service" id="imagine" />
             <argument type="service" id="imagine.cache.manager" />
             <argument type="service" id="imagine.filter.manager" />
-			<call method="setNotFoundImages">
-				<argument>%imagine.not_found_images%</argument>
-			</call>
-			<call method="setRequest">
-				<argument type="service" id="request" on-invalid="null" strict="false" />
-			</call>
+            <call method="setNotFoundImages">
+                <argument>%imagine.not_found_images%</argument>
+            </call>
+            <call method="setRequest">
+                <argument type="service" id="request" on-invalid="null" strict="false" />
+            </call>
         </service>
 
         <!-- Route Loader -->
