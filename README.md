@@ -29,7 +29,7 @@ Add AvalancheImagineBundle in your composer.json:
 ```js
 {
     "require": {
-        "snpy/imagine-bundle": "~2.1"
+        "fidesio/imagine-bundle": "~2.1"
     }
 }
 ```
@@ -37,10 +37,10 @@ Add AvalancheImagineBundle in your composer.json:
 Now tell composer to download the bundle by running the command:
 
 ``` bash
-$ php composer.phar update snpy/imagine-bundle
+$ php composer.phar update fidesio/imagine-bundle
 ```
 
-Composer will install the bundle to your project's `vendor/snpy/imagine-bundle` directory.
+Composer will install the bundle to your project's `vendor/fidesio/imagine-bundle` directory.
 
 ### Step 2: Enable the bundle
 
